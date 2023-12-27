@@ -20,7 +20,7 @@ public partial class LoginControl : System.Web.UI.UserControl
     }
     protected void Validate(object sender, ServerValidateEventArgs e)
     {
-        //retrieving data from the database
+        //retrieving data from the databaseee
         SqlConnection con;
         string strCon = ConfigurationManager.ConnectionStrings["ConMember"].ConnectionString;
         con = new SqlConnection(strCon);
